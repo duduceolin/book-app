@@ -8,6 +8,10 @@
 	<name>book-app</name>
 	<description>main app</description>
 
+	<modules>
+		<module>book-services</module>
+	</modules>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -42,36 +46,32 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
-	<modules>
-		<module>book-services</module>
-	</modules>
-	
+
 	<repositories>
-        <repository>
-            <id>spring-release</id>
-            <name>Spring Release</name>
-            <url>https://repo.spring.io/libs-release</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-	
+		<repository>
+			<id>spring-release</id>
+			<name>Spring Release</name>
+			<url>https://repo.spring.io/libs-release</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 </project>

@@ -10,8 +10,10 @@
   <packaging>pom</packaging>
   <name>book-services</name>
   <description>main services</description>
+  
   <modules>
     <module>user-service</module>
+    <module>person-service</module>
   </modules>
   
 </project>
