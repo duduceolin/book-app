@@ -1,6 +1,6 @@
-package demo.customer.repo;
+package repo;
 
-import demo.customer.model.State;
+import model.State;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
