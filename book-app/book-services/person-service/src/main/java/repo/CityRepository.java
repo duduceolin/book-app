@@ -1,6 +1,6 @@
-package demo.customer.repo;
+package repo;
 
-import demo.customer.model.City;
+import model.City;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
